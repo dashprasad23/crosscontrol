@@ -1,0 +1,16 @@
+{
+  "name": "crosscontrol",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "node-gyp rebuild"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-addon-api": "^8.5.0",
+    "node-gyp": "^11.3.0",
+    "node-gyp-build": "^4.8.4"
+  }
+}
