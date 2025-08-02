@@ -1,15 +1,37 @@
 {
   "name": "crosscontrol",
   "version": "1.0.0",
-  "description": "",
+  "description": "Cross-platform native mouse and keyboard automation module for Node.js (macOS and Windows)",
   "main": "index.js",
   "scripts": {
     "install": "node-gyp rebuild"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Debi Prasad Dash",
+  "license": "MIT",
+  "keywords": [
+    "native",
+    "node-addon-api",
+    "node-gyp",
+    "automation",
+    "keyboard",
+    "mouse",
+    "macos",
+    "windows",
+    "cross-platform",
+    "native-module"
+  ],
+  "os": [
+    "darwin",
+    "win32"
+  ],
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "gypfile": true,
   "dependencies": {
-    "node-addon-api": "^8.5.0",
+    "node-addon-api": "^8.5.0"
+  },
+  "devDependencies": {
     "node-gyp": "^11.3.0",
     "node-gyp-build": "^4.8.4"
   }
