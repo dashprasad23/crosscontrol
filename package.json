@@ -1,6 +1,6 @@
 {
   "name": "crosscontrol",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cross-platform native mouse and keyboard automation module for Node.js (macOS and Windows)",
   "main": "index.js",
   "scripts": {
